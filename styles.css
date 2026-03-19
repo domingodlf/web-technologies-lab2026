@@ -1,22 +1,22 @@
 .contenido {
-  margin-left: 350px;
-  margin-right: 350px;
-  margin-top: 160px;
-  margin-bottom: 160px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .menu {
   width: 100%;
   display: flex;
   justify-content: center;
-  gap: 120px;
+  gap: 40px;
 
   background-color: #85eadafa;
-  padding: 40px 0;
+  padding: 15px 0;
 }
 
 .menu a {
-  font-size: 65px;
+  font-size: 18px;
   font-weight: bold;
   text-decoration: none;
   color: black;
@@ -26,51 +26,69 @@
   color: rgba(255, 255, 255, 0.875);
 }
 
-
-
 p {
-  font-size: 75px;
+  font-size: 18px;
   text-align: center;
 }
 
 .personal h1 {
-    font-size:150px;
-    text-align: center;
+  font-size: 50px;
+  text-align: center;
 }
+
 
 .contenedorImgs {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  gap: 0px;
 }
 
-.contenedorImgs .imagenPersonal1 img {
-  width: 1400px;
-  height: auto;
-  margin-left: 1100px;
-}
-
+.contenedorImgs .imagenPersonal1 img,
 .contenedorImgs .imagenPersonal2 img {
-  width: 1400px;
+  width: 350px;
   height: auto;
-  margin-right: 1100px;
 }
 
+.seccion-flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 40px;
+}
 
+.tabla {
+  margin-left: 40px;
+  margin-top: 100px;
+}
+
+.tabla table {
+  border-collapse: collapse;
+}
+
+.tabla th,
+.tabla td {
+  border: 1px solid black;
+  padding: 8px 12px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.tabla th {
+  background-color: lightgray;
+}
 
 .contenedorDatoFreak {
   display: flex;
   justify-content: stretch;
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-top: 160px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 60px;
 }
 
 .dfTitulo {
   background-color: #85eadafa;
   color: black;
-  width: 180px;
-  padding: 80px;
+  width: 120px;
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,7 +96,7 @@ p {
 
 .dfTitulo h3 {
   margin: 0;
-  font-size: 70px;
+  font-size: 20px;
   font-weight: bold;
   text-align: center;
 }
